@@ -149,7 +149,11 @@
 			<artifactId>springfox-swagger-ui</artifactId>
 		</dependency>
 		<!--使用swagger end-->
-
+		<!-- https://mvnrepository.com/artifact/com.alibaba/druid-spring-boot-starter -->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid-spring-boot-starter</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>

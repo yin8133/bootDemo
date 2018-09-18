@@ -11,8 +11,8 @@
                 <pattern>${PATTERN}</pattern>
             </encoder>
         </appender>
-        <logger name="com.backstage.base.mapper" level="info"/>
-        <root level="info">
+        <logger name="com.backstage.base.mapper" level="debug"/>
+        <root level="debug">
             <appender-ref ref="CONSOLE" />
         </root>
     </springProfile>
