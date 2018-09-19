@@ -11,8 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @Autor jiangcaijun
- * Created by jiangcaijun on 2017/10/27.
+ * @Autor liuying
  */
 @Api(description = "redis测试接口")
 @RestController

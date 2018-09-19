@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 
 /**
  * 正则表达式常量类
- * Created by jiangcaijun on 2017/9/26.
+ * Created by liuying on 2017/9/26.
  */
 public class RegConstant {
     /**

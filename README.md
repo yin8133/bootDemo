@@ -125,7 +125,6 @@ http://localhost:7500/zeus/redis/get
     ```
     /**
      * 拦截器配置
-     * @author jiangcaijun
      *
      */
     @Configuration

@@ -25,9 +25,9 @@ public class SwaggerConfig {
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 .title("springBoot-example RESTful APIs")
-                .description("关注我 https://github.com/jiangcaijun/")
-                .termsOfServiceUrl("https://github.com/jiangcaijun/")
-                .contact("jiangcaijun")
+                .description("关注我 https://github.com/liuying/")
+                .termsOfServiceUrl("https://github.com/liuying/")
+                .contact("liuying")
                 .version("1.0.0")
                 .build();
     }
