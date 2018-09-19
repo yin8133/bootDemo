@@ -21,8 +21,7 @@ import javax.servlet.http.HttpServletRequest;
 import static java.awt.SystemColor.info;
 
 /**
- * @Autor jiangcaijun
- * Created by jiangcaijun on 2017/10/27.
+ * liuying
  */
 @Api(description = "用户测试类")
 @RestController
