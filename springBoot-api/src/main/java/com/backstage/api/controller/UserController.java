@@ -35,7 +35,7 @@ public class UserController {
     private final Logger log = Logger.getLogger(this.getClass());
 
     @ApiOperation(value = "查询用户")
-    @PostMapping(value ="/getUserList", produces  = "application/json;charset=UTF-8")
+    @PostMapping(value = "/getUserList", produces = "application/json;charset=UTF-8")
     public String getUserList(HttpServletRequest request) {
         DataBean dataBean = new DataBean();
         try {
@@ -45,10 +45,10 @@ public class UserController {
             int pageNum = parseObj.getInteger("pageNum");
             int pageSize = parseObj.getInteger("pageSize");
             String name = parseObj.getString("name");
-            PageInfo<User> userList = userService.getUserList(name, pageNum, pageSize);
+            String userList = userService.getUserList(name, pageNum, pageSize);
             dataBean.setCode(Common.DATABEAN_CODE_SUCCESS);
             dataBean.setId("1");
-            dataBean.setMessage(JSON.toJSONString(userList));
+            dataBean.setMessage(userList);
         } catch (Exception e) {
             e.printStackTrace();
             dataBean.setCode(Common.DATABEAN_CODE_ERROR);

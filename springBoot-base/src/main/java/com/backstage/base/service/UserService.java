@@ -5,5 +5,5 @@ import com.github.pagehelper.PageInfo;
 
 
 public interface UserService {
-    PageInfo<User> getUserList(String name,int pageNum,int pageSize)throws Exception;
+    String getUserList(String name,int pageNum,int pageSize)throws Exception;
 }

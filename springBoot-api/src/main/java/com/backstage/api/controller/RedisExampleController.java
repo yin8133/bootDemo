@@ -25,7 +25,7 @@ public class RedisExampleController {
     @ApiOperation(value = "redis赋值")
     @GetMapping("/redis/set")
     public Object redisSet(@RequestParam("value")String value){
-        boolean isOk = redisService.setString("name", value);
+        boolean isOk = redisService.set("name", value);
         if(isOk){
             return new XPFSingleResponse("redis新增成功");
         }else{
@@ -37,7 +37,7 @@ public class RedisExampleController {
     @ApiOperation(value = "取值")
     @GetMapping("/redis/get")
     public Object redisGet(){
-        String value = redisService.getString("name");
+        String value = redisService.get("name");
         return new XPFSingleResponse("redis获取key为name的：" + value);
     }
 }
