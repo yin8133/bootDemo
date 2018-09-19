@@ -35,7 +35,7 @@ public class SpecialManagementController {
 
 
     /**
-     * 该方法测试通过，前端 http://localhost:7500/zeus/specialManagementsById
+     * 该方法测试通过，前端 http://localhost:7500/springBootDemo/specialManagementsById
      * @param id
      * @return
      * @throws XPFBadRequestException
@@ -48,7 +48,7 @@ public class SpecialManagementController {
         return zcdcZx;
     }
     /**
-     * 该方法测试无法通过，前端 http://localhost:7500/zeus/speciGETalManagements/247897A0A4154509A41A152DF2437DFF 请求无法过来
+     * 该方法测试无法通过，前端 http://localhost:7500/springBootDemo/speciGETalManagements/247897A0A4154509A41A152DF2437DFF 请求无法过来
      * @param id
      * @return
      * @throws XPFBadRequestException

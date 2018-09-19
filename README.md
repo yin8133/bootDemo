@@ -173,6 +173,6 @@ public class RedisExampleController {
     public Object redisSet(@RequestParam("value")String value){
 ```
 4、访问localhost:端口号/项目名/swagger-ui.html
-例如，该项目可访问：http://localhost:7500/zeus/swagger-ui.html
+例如，该项目可访问：http://localhost:7500/springBootDemo/swagger-ui.html
 
 ![swagger接口](https://github.com/jiangcaijun/pictureAsset/blob/HEAD/src/zeus-parent/2018-01-10_172633.png?raw=true)
